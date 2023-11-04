@@ -1,8 +1,8 @@
-package control;
+package Cine.control;
         
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import view_components.Clickable;
+import Cine.view_components.Clickable;
 
 public class ClickedListener extends MouseAdapter
 {

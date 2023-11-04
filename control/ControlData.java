@@ -1,4 +1,4 @@
-package control;
+package Cine.control;
 
 import java.util.ArrayList;
 import java.util.Deque;
@@ -9,8 +9,8 @@ import java.util.stream.Collectors;
 
 import javax.swing.JFrame;
 
-import view.HomeFrame;
-import view.NextFrame;
+import Cine.view.HomeFrame;
+import Cine.view.NextFrame;
 
 
 public class ControlData

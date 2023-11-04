@@ -1,6 +1,6 @@
-package view_components;
+package Cine.view_components;
 
-import control.ClickedListener;
+import Cine.control.ClickedListener;
 import javax.swing.JLabel;
 
 

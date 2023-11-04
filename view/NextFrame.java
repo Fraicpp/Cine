@@ -1,4 +1,6 @@
-package view;
+package Cine.view;
+
+import Cine.control.ClickedListener;
 
 /**
  *
@@ -13,7 +15,7 @@ public class NextFrame extends javax.swing.JFrame
     public NextFrame()
     {
         initComponents();
-        uLabel1.setType("back");
+        uButton1.setType("back");
     }
 
     /**
@@ -26,29 +28,29 @@ public class NextFrame extends javax.swing.JFrame
     private void initComponents()
     {
 
-        uLabel1 = new view_components.ULabel();
+        uButton1 = new Cine.view_components.UButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(600, 360));
         setResizable(false);
 
-        uLabel1.setText("uLabel1");
+        uButton1.setText("uButton1");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(176, 176, 176)
-                .addComponent(uLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(183, Short.MAX_VALUE))
+                .addGap(152, 152, 152)
+                .addComponent(uButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(169, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(121, 121, 121)
-                .addComponent(uLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(163, Short.MAX_VALUE))
+                .addGap(76, 76, 76)
+                .addComponent(uButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(201, Short.MAX_VALUE))
         );
 
         pack();
@@ -100,6 +102,6 @@ public class NextFrame extends javax.swing.JFrame
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private view_components.ULabel uLabel1;
+    private Cine.view_components.UButton uButton1;
     // End of variables declaration//GEN-END:variables
 }

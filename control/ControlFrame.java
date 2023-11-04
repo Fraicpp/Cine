@@ -1,4 +1,4 @@
-package control;
+package Cine.control;
 
 import javax.swing.JFrame;
 

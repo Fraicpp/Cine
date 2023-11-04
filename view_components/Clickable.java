@@ -1,4 +1,4 @@
-package view_components;
+package Cine.view_components;
 
 public interface Clickable
 {

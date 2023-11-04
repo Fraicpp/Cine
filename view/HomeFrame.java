@@ -1,7 +1,6 @@
-package view;
+package Cine.view;
 
-import control.ClickedListener;
-import view_components.UButton;
+import Cine.control.ClickedListener;
 
 
 
@@ -14,8 +13,7 @@ public class HomeFrame extends javax.swing.JFrame
     public HomeFrame()
     {
         initComponents();
-        ClickedListener clickedListener = new ClickedListener();
-        uButton2.setType("next");
+        uButton1.setType("next");
     }
 
     /**
@@ -28,7 +26,7 @@ public class HomeFrame extends javax.swing.JFrame
     private void initComponents()
     {
 
-        uButton2 = new view_components.UButton();
+        uButton1 = new Cine.view_components.UButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -37,23 +35,23 @@ public class HomeFrame extends javax.swing.JFrame
         setMinimumSize(new java.awt.Dimension(600, 360));
         setResizable(false);
 
-        uButton2.setText("uButton2");
+        uButton1.setText("uButton1");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(228, 228, 228)
-                .addComponent(uButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(293, Short.MAX_VALUE))
+                .addGap(218, 218, 218)
+                .addComponent(uButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(303, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(75, 75, 75)
-                .addComponent(uButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(262, Short.MAX_VALUE))
+                .addGap(96, 96, 96)
+                .addComponent(uButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(241, Short.MAX_VALUE))
         );
 
         pack();
@@ -61,6 +59,6 @@ public class HomeFrame extends javax.swing.JFrame
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private view_components.UButton uButton2;
+    private Cine.view_components.UButton uButton1;
     // End of variables declaration//GEN-END:variables
 }

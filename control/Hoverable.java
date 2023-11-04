@@ -1,4 +1,4 @@
-package control;
+package Cine.control;
 
 import java.awt.event.MouseListener;
 

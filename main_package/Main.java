@@ -1,9 +1,7 @@
-package main_package;
+package Cine.main_package;
 
-import control.ControlData;
-import view.HomeFrame;
+import Cine.control.ControlData;
 import javax.swing.*;
-import java.awt.*;
 
 public class Main 
 {

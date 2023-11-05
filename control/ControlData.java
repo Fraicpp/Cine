@@ -1,5 +1,6 @@
 package Cine.control;
 
+
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.HashMap;
@@ -9,6 +10,7 @@ import java.util.stream.Collectors;
 
 import javax.swing.JFrame;
 
+import Cine.view.EndFrame;
 import Cine.view.HomeFrame;
 import Cine.view.NextFrame;
 
@@ -35,10 +37,10 @@ public class ControlData
     public ControlData()
     {  
         //list frames here:
-            frameNames  = Stream.of("HomeFrame", "NextFrame")
+            frameNames  = Stream.of("HomeFrame", "NextFrame", "EndFrame")
                     .collect(Collectors.toCollection(ArrayList<String>::new));
 
-            jFrames     = Stream.of(new HomeFrame(), new NextFrame())
+            jFrames     = Stream.of(new HomeFrame(), new NextFrame(), new EndFrame())
                     .collect(Collectors.toCollection(ArrayList<JFrame>::new));
         
             

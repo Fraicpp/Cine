@@ -13,7 +13,10 @@ public class HomeFrame extends javax.swing.JFrame
     public HomeFrame()
     {
         initComponents();
-        uButton1.setType("next");
+        uButton1.setDestFrame("EndFrame");
+        uButton1.setType("");
+        
+        
     }
 
     /**

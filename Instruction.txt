@@ -1,0 +1,16 @@
+*Initializing Project*
+
+    Creating Project:
+        Create empty maven project
+        Delete any extra packages/java files in 'Source Packages'
+
+    Connecting to Github:
+        Clone Github repo into Github Desktop
+        Choose Project's "java" folder as repo's local path
+
+    Configuring Project:
+        Set Cine.main_package/Main.java as Project's "main Class"
+        
+        Add custom swing components into Palette:
+            Tools > add to Palette > swing components
+

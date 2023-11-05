@@ -25,6 +25,13 @@ public class ControlData
     
     
     //INIT
+    /**
+     * Constructor for singleton ControlData.
+     * For this reason, all Frame sub-classes need to be
+     * declared here.
+     * List Frame names in 'jFrames' and place their
+     * names as Strings in 'frameNames'
+     */
     public ControlData()
     {  
         //list frames here:

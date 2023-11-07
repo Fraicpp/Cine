@@ -6,14 +6,14 @@ import javax.swing.JButton;
 
 public class UButton extends JButton implements Clickable
 {
-    public String destFrame;
-    public String type;
+    private String destFrame;
+    private String type;
     
     public UButton()
     {
         this.addMouseListener(new ClickedListener());
-        destFrame = null;
-        type = null;
+        destFrame = "";
+        type = "";  //possible values: "back", "next", ""
     }
 
     public void setDestFrame(String destFrame)
@@ -26,15 +26,16 @@ public class UButton extends JButton implements Clickable
         this.type = type;
     }
     
-    @Override
-    public String getDestFrame()
-    {
-        return destFrame;
-    }
+    //Clickable Interface
+        @Override
+        public String getDestFrame()
+        {
+            return destFrame;
+        }
 
-    @Override
-    public String getComponentType()
-    {
-        return type;
-    }
+        @Override
+        public String getComponentType()
+        {
+            return type;
+        }
 }

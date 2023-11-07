@@ -1,0 +1,7 @@
+Use JLable if you simply want to display something that is not Clickable
+
+Use ULabel if you want the label to be clickable
+    
+Use UBotton instead of JButton EVERYTIME
+
+Use UMovieLabel if you want to display a movie

@@ -13,10 +13,6 @@ public class HomeFrame extends javax.swing.JFrame
     public HomeFrame()
     {
         initComponents();
-        uButton1.setDestFrame("EndFrame");
-        uButton1.setType("");
-        
-        
     }
 
     /**
@@ -39,22 +35,23 @@ public class HomeFrame extends javax.swing.JFrame
         setResizable(false);
 
         uButton1.setText("uButton1");
+        uButton1.setType("next");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(218, 218, 218)
+                .addGap(188, 188, 188)
                 .addComponent(uButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(303, Short.MAX_VALUE))
+                .addContainerGap(333, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(96, 96, 96)
+                .addGap(122, 122, 122)
                 .addComponent(uButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(241, Short.MAX_VALUE))
+                .addContainerGap(215, Short.MAX_VALUE))
         );
 
         pack();

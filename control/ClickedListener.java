@@ -34,7 +34,7 @@ public class ClickedListener extends MouseAdapter
             }
             else
             {
-             destFrame = component.getDestFrame();
+                 destFrame = component.getDestFrame();
             }
             
             ControlFrame.changeFrame(destFrame);

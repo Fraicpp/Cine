@@ -6,14 +6,14 @@ import javax.swing.JLabel;
 
 public class ULabel extends JLabel implements Clickable
 {
-    public String destFrame;
-    public String type;
+    private String destFrame;
+    private String type;
     
     public ULabel()
     {
         this.addMouseListener(new ClickedListener());
-        destFrame = null;
-        type = null;
+        destFrame = "";
+        type = "";
     }
 
     public void setDestFrame(String destFrame)
@@ -26,17 +26,19 @@ public class ULabel extends JLabel implements Clickable
         this.type = type;
     }
     
-    @Override
-    public String getDestFrame()
-    {
-        return destFrame;
-    }
+    
+    //CLickable Interface
+        @Override
+        public String getDestFrame()
+        {
+            return destFrame;
+        }
 
-    @Override
-    public String getComponentType()
-    {
-        return type;
-    }
+        @Override
+        public String getComponentType()
+        {
+            return type;
+        }
     
     
 }

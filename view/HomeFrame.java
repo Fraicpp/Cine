@@ -208,7 +208,7 @@ public class HomeFrame extends javax.swing.JFrame
         Title_Movie1.setFont(new java.awt.Font("sansserif", 1, 36)); // NOI18N
         Title_Movie1.setForeground(new java.awt.Color(255, 255, 255));
         Title_Movie1.setText("Avengers: Endgame");
-        jPanel1.add(Title_Movie1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 710, -1, -1));
+        jPanel1.add(Title_Movie1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1080, 710, -1, -1));
 
         Content_Movie1.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
         Content_Movie1.setForeground(new java.awt.Color(255, 255, 255));
